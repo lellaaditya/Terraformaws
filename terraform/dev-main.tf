@@ -61,7 +61,7 @@ module "aws_iam_role" {
         Effect = "Allow"
         Action = "sts:AssumeRole"
         Principal = {
-          Service = "mepsync.amazonaws.com"
+          Service = "meppsync.amazonaws.com"
         }
       }
     ]
